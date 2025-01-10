@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.container{
+    background: linear-gradient(rgba(96, 96, 194, 0.756),rgba(40, 40, 206, 0.924));
+    width: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    padding-top: 4%;
+    padding-left: 20%;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+}
+
+.container h1 span{
+    display: block;
+    color: yellow;
+}
+
+.input-type{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 550px;
+    background-color:rgba(184, 183, 183, 0.859);
+    padding: 20px 40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.input-type [type="date"]   {
+    width: 300px;
+    font-size: 40px;
+    padding: 10px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+   
+}
+.input-type button{
+    width: 200px;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 20px;
+    background: yellow;
+    color: aqua;
+    cursor: pointer;
+}
+
+#age {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #cc3434;
+    width: 600px;
+    padding: 10px;
+    border-radius: 50px;
+}   
+
+@media (max-width:425px)  {
+    .input-type{
+        max-width:300px;
+        width: 100%;
+    }
+        .input-type [type="date"]{
+            width: 200px;
+        }
+    .input-type button{
+        margin-top: 5px;
+    }   
+    #age{
+        max-width: 300px;
+        width: 100%;
+    }
+}
+@media (max-width:800px) {
+    .input-type {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .input-type button {
+        margin-top: 5px;
+    }
+
+    #age {
+        max-width: 600px;
+        width: 100%;
+    }
+}
+
+@media (min-width:1100px) {
+    .input-type {
+        max-width: 550px;
+        width: 100%;
+    }
+
+    .input-type button {
+        margin-top: 5px;
+    }
+
+    #age {
+        max-width: 600px;
+        width: 100%;
+    }
+}
